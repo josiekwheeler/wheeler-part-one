@@ -1,0 +1,139 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #F0ECEE;
+}
+
+.body {
+  width: 100%;
+}
+
+.adopt {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  color: #88898B;
+}
+
+.contact {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #FF4850;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.contact:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+.container {
+  display: flex;
+}
+
+.column-one {
+  width: 100%;
+}
+
+.column-two {
+  display: none;
+}
+
+.find {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  background-color: #FF4850;
+  width: 100%;
+}
+
+.find:hover {
+  background-color: #CCC;
+  color: #FF4850;
+}
+
+.tag-line {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.supporting-message {
+  font-size: 16px;
+  font-weight: 300;
+  color: #88898B;
+}
+
+.highlighted-text {
+  color: #FF4850;
+}
+
+@media only screen and (min-width:768px) {
+  * {
+    background-color: inherit;
+  }
+  body {
+    padding: 0 30px;
+    background-image: url("bulldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .navigation {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+  }
+
+  .navigation li {
+    margin: 0 10px;
+  }
+
+  .column-one {
+    margin-top: 100px;
+  }
+
+
+  .adopt {
+    position: relative;
+    top: 77px;
+    width: 20%;
+  }
+
+  .main-image {
+    width: 800px;
+    height: 800px;
+  }
+
+  .find {
+    width: 300px;
+  }
+}
